@@ -14,7 +14,7 @@ interface WhyChooseSectionFormProps {
 }
 
 export function WhyChooseSectionForm({ initialData }: WhyChooseSectionFormProps) {
-  const [sectionTitle, setSectionTitle] = useState(initialData?.section_title || "لماذا تختار RASHD-WIFI؟")
+  const [sectionTitle, setSectionTitle] = useState(initialData?.section_title || "لماذا تختار SAWA-NET ؟")
   const [isSaving, setIsSaving] = useState(false)
   const { toast } = useToast()
 
@@ -79,7 +79,7 @@ export function WhyChooseSectionForm({ initialData }: WhyChooseSectionFormProps)
           id="section_title"
           value={sectionTitle}
           onChange={(e) => setSectionTitle(e.target.value)}
-          placeholder="لماذا تختار RASHD-WIFI؟"
+          placeholder="لماذا تختار SAWA-NET ؟"
           dir="rtl"
         />
       </div>

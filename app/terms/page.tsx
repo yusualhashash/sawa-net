@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "الشروط والأحكام - RASHD-WIFI",
+  title: "الشروط والأحكام - SAWA-NET",
   description: "شروط وأحكام استخدام خدمات شركة راشد واي فاي",
 }
 
@@ -14,7 +14,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-gray-900 mb-4">المقدمة</h2>
           <p className="text-gray-700 leading-relaxed">
-            مرحباً بك في شركة راشد واي فاي (RASHD-WIFI). باستخدامك لخدماتنا، فإنك توافق على الالتزام بهذه الشروط
+            مرحباً بك في شركة راشد واي فاي (SAWA-NET). باستخدامك لخدماتنا، فإنك توافق على الالتزام بهذه الشروط
             والأحكام. يرجى قراءتها بعناية قبل استخدام خدماتنا.
           </p>
         </section>

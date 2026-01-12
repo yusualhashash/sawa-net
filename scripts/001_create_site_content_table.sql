@@ -18,7 +18,7 @@ CREATE INDEX idx_site_content_section ON site_content(section, sort_order);
 -- Insert top main menu content
 -- Section: top_main_menu_branding
 INSERT INTO site_content (section, key, value, sort_order) VALUES
-('top_main_menu_branding', 'brand_name', 'RASHD-WIFI', 1);
+('top_main_menu_branding', 'brand_name', 'sawa-net', 1);
 
 -- Section: top_main_menu_navigation
 INSERT INTO site_content (section, key, value, sort_order) VALUES

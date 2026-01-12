@@ -21,7 +21,7 @@ export default function AdminDashboard() {
     <div className="min-h-screen bg-gray-50 py-24" dir="rtl">
       <header className="bg-white border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">لوحة تحكم RASHD-WIFI</h1>
+          <h1 className="text-2xl font-bold">لوحة تحكم SAWA-NET</h1>
           <form action="/api/admin/logout" method="POST">
             <Button variant="outline" type="submit">
               <LogOut className="mr-2 h-4 w-4" />
