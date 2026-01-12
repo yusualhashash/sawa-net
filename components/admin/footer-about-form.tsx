@@ -62,7 +62,7 @@ export function FooterAboutForm({ titleId, descriptionId, initialTitle, initialD
       <CardContent className="space-y-4">
         <div className="space-y-2">
           <Label htmlFor="title">العنوان</Label>
-          <Input id="title" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="راشد واي فاي" />
+          <Input id="title" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="سوا نت" />
         </div>
 
         <div className="space-y-2">

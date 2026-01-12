@@ -3,8 +3,8 @@ CREATE TABLE IF NOT EXISTS about_page_hero (
   id SERIAL PRIMARY KEY,
   badge_text VARCHAR(255) DEFAULT 'تعرف علينا',
   title VARCHAR(500) DEFAULT 'نحن sawa-net',
-  subtitle TEXT DEFAULT 'نقدم لك أفضل خدمات الإنترنت في العراق منذ عام 2020',
-  description TEXT DEFAULT 'نحن شركة رائدة في تقديم خدمات الإنترنت عالي السرعة في العراق. نؤمن بأن الإنترنت السريع والموثوق هو حق للجميع، ونعمل جاهدين لتوفير أفضل تجربة إنترنت لعملائنا.',
+  subtitle TEXT DEFAULT 'نقدم لك أفضل خدمات الإنترنت في سوريا منذ عام 2020',
+  description TEXT DEFAULT 'نحن شركة رائدة في تقديم خدمات الإنترنت عالي السرعة في سوريا. نؤمن بأن الإنترنت السريع والموثوق هو حق للجميع، ونعمل جاهدين لتوفير أفضل تجربة إنترنت لعملائنا.',
   button1_text VARCHAR(100) DEFAULT 'تواصل معنا',
   button1_link VARCHAR(500) DEFAULT '/contact',
   background_image_url TEXT,
@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS about_page_hero (
 -- Insert default data
 INSERT INTO about_page_hero (badge_text, title, subtitle, description, button1_text, button1_link)
 VALUES 
-  ('تعرف علينا', 'نحن sawa-net', 'نقدم لك أفضل خدمات الإنترنت في العراق منذ عام 2020', 'نحن شركة رائدة في تقديم خدمات الإنترنت عالي السرعة في العراق. نؤمن بأن الإنترنت السريع والموثوق هو حق للجميع، ونعمل جاهدين لتوفير أفضل تجربة إنترنت لعملائنا.', 'تواصل معنا', '/contact')
+  ('تعرف علينا', 'نحن sawa-net', 'نقدم لك أفضل خدمات الإنترنت في سوريا منذ عام 2020', 'نحن شركة رائدة في تقديم خدمات الإنترنت عالي السرعة في سوريا. نؤمن بأن الإنترنت السريع والموثوق هو حق للجميع، ونعمل جاهدين لتوفير أفضل تجربة إنترنت لعملائنا.', 'تواصل معنا', '/contact')
 ON CONFLICT DO NOTHING;
 
 -- Create table for about page statistics

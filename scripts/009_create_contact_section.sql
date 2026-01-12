@@ -16,7 +16,7 @@ INSERT INTO contact_info (type, label, value, icon, sort_order, is_active) VALUE
 ('phone', 'رقم الهاتف', '+964 775 173 5156', 'phone', 1, true),
 ('whatsapp', 'واتساب', '+964 775 173 5156', 'message-circle', 2, true),
 ('email', 'البريد الإلكتروني', 'info@rashdwifi.com', 'mail', 3, true),
-('location', 'الموقع', 'بغداد، العراق', 'map-pin', 4, true);
+('location', 'الموقع', 'بغداد، سوريا', 'map-pin', 4, true);
 
 -- Add contact section header to site_content
 INSERT INTO site_content (section, key, value, sort_order) VALUES

@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "الشروط والأحكام - SAWA-NET",
-  description: "شروط وأحكام استخدام خدمات شركة راشد واي فاي",
+  description: "شروط وأحكام استخدام خدمات شركة سوا نت",
 }
 
 export default function TermsPage() {
@@ -14,7 +14,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-gray-900 mb-4">المقدمة</h2>
           <p className="text-gray-700 leading-relaxed">
-            مرحباً بك في شركة راشد واي فاي (SAWA-NET). باستخدامك لخدماتنا، فإنك توافق على الالتزام بهذه الشروط
+            مرحباً بك في شركة سوا نت (SAWA-NET). باستخدامك لخدماتنا، فإنك توافق على الالتزام بهذه الشروط
             والأحكام. يرجى قراءتها بعناية قبل استخدام خدماتنا.
           </p>
         </section>
@@ -53,7 +53,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-gray-900 mb-4">المعدات والتركيب</h2>
           <p className="text-gray-700 leading-relaxed">
-            نقوم بتوفير المعدات اللازمة لتشغيل الخدمة. المعدات تبقى ملكاً لشركة راشد واي فاي ويجب إعادتها عند إنهاء
+            نقوم بتوفير المعدات اللازمة لتشغيل الخدمة. المعدات تبقى ملكاً لشركة سوا نت ويجب إعادتها عند إنهاء
             الخدمة. أي ضرر أو فقدان للمعدات قد يؤدي إلى فرض رسوم.
           </p>
         </section>
@@ -100,8 +100,8 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-gray-900 mb-4">القانون الحاكم</h2>
           <p className="text-gray-700 leading-relaxed">
-            تخضع هذه الشروط والأحكام لقوانين جمهورية العراق. أي نزاعات تنشأ عن هذه الشروط ستخضع للاختصاص القضائي الحصري
-            للمحاكم العراقية.
+            تخضع هذه الشروط والأحكام لقوانين جمهورية سوريا. أي نزاعات تنشأ عن هذه الشروط ستخضع للاختصاص القضائي الحصري
+            للمحاكم سورياية.
           </p>
         </section>
 
@@ -109,8 +109,8 @@ export default function TermsPage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">معلومات الاتصال</h2>
           <p className="text-gray-700 leading-relaxed">لأي استفسارات حول هذه الشروط والأحكام، يرجى التواصل معنا:</p>
           <div className="mt-4 text-gray-700">
-            <p>شركة راشد واي فاي</p>
-            <p>العراق</p>
+            <p>شركة سوا نت</p>
+            <p>سوريا</p>
             <p className="mt-2">للاستفسارات: تواصل معنا عبر صفحة الاتصال</p>
           </div>
         </section>

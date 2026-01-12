@@ -101,7 +101,7 @@ export function ServicesHeaderForm({ title, subtitle, titleId, subtitleId }: Ser
           id="subtitle"
           value={formData.subtitle}
           onChange={(e) => setFormData({ ...formData, subtitle: e.target.value })}
-          placeholder="نقدم لك أفضل خدمات الإنترنت في العراق"
+          placeholder="نقدم لك أفضل خدمات الإنترنت في سوريا"
           required
         />
       </div>

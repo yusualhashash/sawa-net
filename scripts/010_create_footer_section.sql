@@ -23,9 +23,9 @@ CREATE TABLE IF NOT EXISTS footer_social (
 
 -- Insert default footer content into site_content
 INSERT INTO site_content (section, key, value, sort_order) VALUES
-('footer_about', 'title', 'راشد واي فاي', 1),
-('footer_about', 'description', 'نوفر لك أفضل خدمات الإنترنت في العراق بسرعات عالية وأسعار تنافسية. نحن هنا لخدمتك على مدار الساعة.', 2),
-('footer_copyright', 'text', '© 2025 راشد واي فاي. جميع الحقوق محفوظة.', 1);
+('footer_about', 'title', 'سوا نت', 1),
+('footer_about', 'description', 'نوفر لك أفضل خدمات الإنترنت في سوريا بسرعات عالية وأسعار تنافسية. نحن هنا لخدمتك على مدار الساعة.', 2),
+('footer_copyright', 'text', '© 2025 سوا نت. جميع الحقوق محفوظة.', 1);
 
 -- Insert default footer links
 INSERT INTO footer_links (title, url, sort_order) VALUES

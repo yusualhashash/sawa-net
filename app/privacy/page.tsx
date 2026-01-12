@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "سياسة الخصوصية - sawa-net",
-  description: "سياسة الخصوصية وحماية البيانات لشركة راشد واي فاي",
+  description: "سياسة الخصوصية وحماية البيانات لشركة سوا نت",
 }
 
 export default function PrivacyPage() {
@@ -14,7 +14,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-2xl font-bold text-gray-900 mb-4">المقدمة</h2>
           <p className="text-gray-700 leading-relaxed">
-            نحن في شركة راشد واي فاي (SAWA-NET) نلتزم بحماية خصوصيتك وبياناتك الشخصية. توضح هذه السياسة كيفية جمع
+            نحن في شركة سوا نت (SAWA-NET) نلتزم بحماية خصوصيتك وبياناتك الشخصية. توضح هذه السياسة كيفية جمع
             واستخدام وحماية معلوماتك الشخصية عند استخدام خدماتنا.
           </p>
         </section>
@@ -99,8 +99,8 @@ export default function PrivacyPage() {
             إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه أو ممارسات البيانات الخاصة بنا، يرجى التواصل معنا:
           </p>
           <div className="mt-4 text-gray-700">
-            <p>شركة راشد واي فاي</p>
-            <p>العراق</p>
+            <p>شركة سوا نت</p>
+            <p>سوريا</p>
             <p className="mt-2">للاستفسارات: تواصل معنا عبر صفحة الاتصال</p>
           </div>
         </section>

@@ -24,4 +24,4 @@ INSERT INTO services (title, description, icon, sort_order, is_active) VALUES
 -- Add section content for services section header
 INSERT INTO site_content (section, key, value, sort_order) VALUES
 ('services_section_header', 'title', 'خدماتنا', 1),
-('services_section_header', 'subtitle', 'نقدم لك أفضل خدمات الإنترنت في العراق', 2);
+('services_section_header', 'subtitle', 'نقدم لك أفضل خدمات الإنترنت في سوريا', 2);

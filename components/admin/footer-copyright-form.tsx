@@ -57,7 +57,7 @@ export function FooterCopyrightForm({ copyrightId, initialText }: FooterCopyrigh
             id="copyright"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="© 2025 راشد واي فاي. جميع الحقوق محفوظة."
+            placeholder="© 2025 سوا نت. جميع الحقوق محفوظة."
           />
         </div>
 

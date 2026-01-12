@@ -3,8 +3,8 @@ CREATE TABLE IF NOT EXISTS coverage_page_hero (
   id SERIAL PRIMARY KEY,
   badge_text TEXT NOT NULL DEFAULT 'تعرف علينا',
   title TEXT NOT NULL DEFAULT 'نحن شركة sawa-net',
-  subtitle TEXT NOT NULL DEFAULT 'نقدم لك أفضل خدمات الإنترنت في العراق منذ عام 2020',
-  description TEXT NOT NULL DEFAULT 'نحن شركة رائدة في تقديم خدمات الإنترنت عالي السرعة في العراق. نؤمن بأن الإنترنت السريع والموثوق هو حق للجميع، ونعمل جاهدين لتوفير أفضل تجربة إنترنت لعملائنا.',
+  subtitle TEXT NOT NULL DEFAULT 'نقدم لك أفضل خدمات الإنترنت في سوريا منذ عام 2020',
+  description TEXT NOT NULL DEFAULT 'نحن شركة رائدة في تقديم خدمات الإنترنت عالي السرعة في سوريا. نؤمن بأن الإنترنت السريع والموثوق هو حق للجميع، ونعمل جاهدين لتوفير أفضل تجربة إنترنت لعملائنا.',
   button_text TEXT NOT NULL DEFAULT 'تواصل معنا',
   button_link TEXT NOT NULL DEFAULT '/contact',
   background_image TEXT,
@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS coverage_page_hero (
 
 -- Insert default hero data
 INSERT INTO coverage_page_hero (badge_text, title, subtitle, description, button_text, button_link)
-VALUES ('تعرف علينا', 'نحن شركة sawa-net', 'نقدم لك أفضل خدمات الإنترنت في العراق منذ عام 2020', 'نحن شركة رائدة في تقديم خدمات الإنترنت عالي السرعة في العراق. نؤمن بأن الإنترنت السريع والموثوق هو حق للجميع، ونعمل جاهدين لتوفير أفضل تجربة إنترنت لعملائنا.', 'تواصل معنا', '/contact')
+VALUES ('تعرف علينا', 'نحن شركة sawa-net', 'نقدم لك أفضل خدمات الإنترنت في سوريا منذ عام 2020', 'نحن شركة رائدة في تقديم خدمات الإنترنت عالي السرعة في سوريا. نؤمن بأن الإنترنت السريع والموثوق هو حق للجميع، ونعمل جاهدين لتوفير أفضل تجربة إنترنت لعملائنا.', 'تواصل معنا', '/contact')
 ON CONFLICT DO NOTHING;
 
 -- Create coverage areas table
