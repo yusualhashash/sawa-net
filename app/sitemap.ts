@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://sawa-net.com" // Update this with your actual domain
+  const baseUrl = "https://sawa-wifi.com" // Update this with your actual domain
 
   return [
     {

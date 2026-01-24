@@ -20,28 +20,28 @@ const cairo = Cairo({ subsets: ["arabic", "latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "SAWA-NET",
-    template: "%s | SAWA-NET",
+    default: "Sawa-Net",
+    template: "%s | Sawa-Net",
   },
   description:
     "شركة سوا نت - نقدم خدمات إنترنت سريعة وموثوقة في درعا الريف الغربي. دعم فني 24/7، باقات متنوعة، وتغطية واسعة. اشترك الآن واستمتع بأفضل خدمة إنترنت.",
-  keywords: ["إنترنت سوريا", "واي فاي", "سوا نت", "SAWA-NET", "إنترنت سريع", "خدمات إنترنت", "باقات إنترنت", "درعا"],
-  authors: [{ name: "SAWA-NET" }],
-  creator: "SAWA-NET",
-  publisher: "SAWA-NET",
+  keywords: ["إنترنت سوريا", "واي فاي", "سوا نت", "Sawa-Net", "إنترنت سريع", "خدمات إنترنت", "باقات إنترنت", "درعا"],
+  authors: [{ name: "Sawa-Net" }],
+  creator: "Sawa-Net",
+  publisher: "Sawa-Net",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://sawa-net.com"),
+  metadataBase: new URL("https://sawa-wifi.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "SAWA-NET - إنترنت سريع وموثوق في سوريا",
     description: "نقدم خدمات إنترنت سريعة وموثوقة مع دعم فني 24/7 وباقات متنوعة",
-    url: "https://sawa-net.com",
+    url: "https://sawa-wifi.com",
     siteName: "SAWA-NET",
     locale: "ar_SY",
     type: "website",
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-    generator: 'v0.app'
+  generator: 'v0.app'
 }
 
 export default async function RootLayout({
